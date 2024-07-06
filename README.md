@@ -30,9 +30,11 @@ Using off the shelf products such as HC-05 Bluetooth Module, ADXL345 Acceleromet
 * **RStick - Driver Code**<br />
 	- The two ADXL345 accelerometer modules are simultaneously connected in I2C mode using "Wire" Arduino library.<br />
 	- The HC-05 Bluetooth module is connected using "SoftwareSerial" Arduino library. Communicates with one of computers COM serials.
-	- ["RStick_accCombined.ino"](Rstick/RStick_accCombined/RStick_accCombined.ino) includes methods for both the accelerometers and the Bluetooth module.<br />
+	- ["RStick_accCombined.ino"](Rstick/RStick_accCombined/RStick_accCombined.ino) includes methods for both the accelerometers and the Bluetooth module. <br />
 
 * **S.T.R.I.D.E.R - Digital game made for showcase purposes.** (Also playable with keyboard - mouse)<br />
 	- Programs such as Unity Game Engine, Blender, Substance Painter etc. are used for the development and [design](https://www.artstation.com/artwork/5vrDAJ).<br />
 	- For Unity to establish communication with the COM ports [Dwilches's "Ardity"](https://github.com/dwilches/Ardity) library is used.<br />
 	- Test [build](S.T.R.I.D.E.R/BUILD) is included in this repository.<br />
+ 		+ **Controls for keyboard/mouse:**<br /> Walk -> *W and S* <br /> Turn -> *A and D* <br /> Fire -> *R and Left Mouse Button* <br /> Sprint -> *Left Shift* <br /> Change Target -> *Q and Right Mouse Button* <br /> Change Weapon -> *E*<br />
+  		+ **Controls for RStick:**<br /> Walk and Turn -> RStick Rotation <br /> Fire -> Index Button <br /> Sprint - > Middle Button <br /> Change Target -> Ring Button <br /> Change Weapon -> Pinky Button
