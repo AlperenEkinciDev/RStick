@@ -1,10 +1,17 @@
-//**Alperen Ekinci, 2024 Hacettepe University Term Project I, RStick Project, Prototyping and Showcasing By Developing The Game S.T.R.I.D.E.R**//
+**Alperen Ekinci,<br />
+2024 Hacettepe University Term Project I,<br />
+RStick Project, Prototyping and Showcasing By Developing The Game S.T.R.I.D.E.R**
 
+Summary
+============
 In a gaming landscape dominated by traditional control devices such as keyboards, mice and gamepads, a new cost-effective method to elevate player immersion is needed. This project intends to design and implement a handheld device called R-Stick, a motion and key-press controlled Bluetooth device.<br />
 
 Project Demonstration: https://www.youtube.com/watch?v=9k_XwhJBLDw
 
 This repository aims to document this project.<br />
+
+Details
+============
 
 * **RStick - Component Selection**<br />
 Using off the shelf products such as HC-05 Bluetooth Module, ADXL345 Accelerometer and cheap 3D printed parts, greatly reduces the cost of this prototype.But in a future where this becomes a consumer product its cost can be reduced by creating custom PCBs and cheaper casing;<br />
@@ -26,6 +33,6 @@ Using off the shelf products such as HC-05 Bluetooth Module, ADXL345 Acceleromet
 	- "RStick_accCombined.ino" includes methods for both the accelerometers and the Bluetooth module.<br />
 
 * **S.T.R.I.D.E.R - Digital game made for showcase purposes.** (Also playable with keyboard - mouse)<br />
-	- Programs such as Unity Game Engine, Blender, Substance Painter etc. are used for the development.<br />
-	- For Unity to establish communication with the COM ports Dwilches's "Ardity" library is used. (https://github.com/dwilches/Ardity)
+	- Programs such as Unity Game Engine, Blender, Substance Painter etc. are used for the development. (https://www.artstation.com/artwork/5vrDAJ)<br />
+	- For Unity to establish communication with the COM ports Dwilches's "Ardity" library is used.<br /> (https://github.com/dwilches/Ardity)<br />
 	- Test build is included in this repository.<br />
